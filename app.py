@@ -82,7 +82,7 @@ class LaLoteraApp:
             self.salidos = []
             self.display_numero.config(text="--")
             for lbl in self.labels_numeros.values():
-                lbl.config(bg="#ffffff", fg="#bdc3c7")
+                lbl.config(bg="#1e1e2e", fg="#bdc3c7")
 
 if __name__ == "__main__":
     root = tk.Tk()
